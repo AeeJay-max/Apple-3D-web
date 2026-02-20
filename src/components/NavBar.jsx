@@ -17,7 +17,7 @@ const NavBar = () => {
 
                 <div className='flex flex-auto justify-center max-sm:hidden'>
                     <nav className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' onClick={() => navigate('/')}>iPhones</nav>
-                    <nav className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' >Mac</nav>
+                    <nav className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' onClick={() => navigate('/mac')}>Mac</nav>
                     <nav className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all'>Products</nav>
                     <nav className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all'>Support</nav>
                 </div>
