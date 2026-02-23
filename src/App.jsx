@@ -5,6 +5,7 @@ import NavBar from './components/NavBar'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
 import * as Sentry from '@sentry/react'
+import HomeMac from './pages/HomeMac';
 import Footer from './components/Footer';
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/mac' element={<HomeMac />} />
       </Routes>
       <Footer />
     </main>

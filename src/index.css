@@ -4,22 +4,22 @@
 
 @font-face {
   font-family: "Regular";
-  src: url("/fonts/regular.otf");
+  src: url("assets/mac_Assets/fonts/regular.otf");
 }
 
 @font-face {
   font-family: "Medium";
-  src: url("/fonts/medium.otf");
+  src: url("/assets/mac_Assets/fonts/medium.otf");
 }
 
 @font-face {
   font-family: "SemiBold";
-  src: url("/fonts/semibold.otf");
+  src: url("/assets/mac_Assets/fonts/semibold.otf");
 }
 
 @font-face {
   font-family: "Bold";
-  src: url("/fonts/bold.otf");
+  src: url("/assets/mac_Assets/fonts/bold.otf");
 }
 
 * {

@@ -98,6 +98,24 @@ export const models = [
 
 ];
 
+export const macModels = [
+  {
+    id: 1,
+    title: "MacBookPro 16 in Space Black",
+    color: ["#8F8A81", "#ffe7b9", "#6f6c64"],
+  },
+  {
+    id: 2,
+    title: "MacBookPro 16 in Space Black",
+    color: ["#53596E", "#6395ff", "#21242e"],
+  },
+];
+
+export const macSizes = [
+  { label: '14"', value: "small" },
+  { label: '16"', value: "large" },
+];
+
 export const sizes = [
   { label: '6.1"', value: "small" },
   { label: '6.7"', value: "large" },
