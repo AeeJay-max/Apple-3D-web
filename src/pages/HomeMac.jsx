@@ -6,6 +6,9 @@ import { animateWithGsap } from '../utils/animations';
 import Hero from '../mac/Hero';
 import ProductViewr from '../mac/ProductViewr';
 import ShowCase from '../mac/ShowCase';
+import Performance from '../mac/Performance';
+import FeaturesMac from '../mac/FeaturesMac';
+import HighLightsMac from '../mac/HighLightsMac';
 
 
 const HomeMac = () => {
@@ -15,6 +18,9 @@ const HomeMac = () => {
               <Hero />
               <ProductViewr />
               <ShowCase />
+              <Performance />
+              <FeaturesMac />
+              <HighLightsMac />
             </div>
         </section>
     )

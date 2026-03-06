@@ -71,7 +71,7 @@ export const models = [
     color: ["#454749", "#3b3b3b", "#181819"],
     img: blackImg,
   },
-  {
+  /*{
   id: 5,
   title: "iPhone 15 Pro in Graphite Titanium (Concept)",
   color: ["#5a5a5a", "#7a7a7a", "#2e2e2e"],
@@ -94,7 +94,7 @@ export const models = [
   title: "iPhone 15 Pro in Midnight Green Titanium (Concept)",
   color: ["#1f3d34", "#3e6f61", "#0f1f1a"],
   img: blackImg,
-},
+},*/
 
 ];
 
