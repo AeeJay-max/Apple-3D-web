@@ -5,6 +5,7 @@ import gsap from 'gsap';
 import { animateWithGsap } from '../utils/animations';
 import Hero from '../mac/Hero';
 import ProductViewr from '../mac/ProductViewr';
+import ShowCase from '../mac/ShowCase';
 
 
 const HomeMac = () => {
@@ -13,6 +14,7 @@ const HomeMac = () => {
             <div>
               <Hero />
               <ProductViewr />
+              <ShowCase />
             </div>
         </section>
     )
