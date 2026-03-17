@@ -1,8 +1,12 @@
 import React from 'react'
+import Developer from '../pages/Developer'
 
 const Footer = () => {
   return (
     <footer className='py-5 sm:px-10 px-5'>
+
+      <Developer />
+      <div className='bg-neutral-700 h-[1px] w-full' />
       <div className='screen-max-width'>
         <div>
           <p className='font-semibold text-gray text-xs'>
@@ -21,6 +25,8 @@ const Footer = () => {
         <div className='flex md:flex-row flex-col md:items-center justify-between'>
           <p className='font-semibold text-gray text-xs'>Copyright @2026 Apple Inc. All rights reserved.</p>
           <div className='flex'>
+            <p className='font-semibold text-gray text-xs mx-2'>Developer</p>
+            <p className='font-semibold text-gray text-xs mx-2'>|</p>
             <p className='font-semibold text-gray text-xs mx-2'>Privacy Policy</p>
             <p className='font-semibold text-gray text-xs mx-2'>|</p>
             <p className='font-semibold text-gray text-xs mx-2'>Terms of Use</p>

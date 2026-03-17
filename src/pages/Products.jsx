@@ -4,10 +4,11 @@ import { Link } from 'react-router-dom'
 const products = [
   {
     id: 'iphone',
-    name: 'iPhone 15',
+    name: 'iPhone 15 Pro',
     tagline: 'Titanium. Powerful. Pro.',
     image: '/assets/images/Apple-iPhone-15-Pro.jpg',
     link: '/iPhone',
+    learn: 'https://www.istore.co.za/shop-iphone-15-pro?srsltid=AfmBOorFh49KWHupWVqJXaomT7yT7lQCmuwjgMRj_uC9pmwpZyKDWzty',
   },
   {
     id: 'mac',
@@ -15,6 +16,15 @@ const products = [
     tagline: 'Supercharged by Apple silicon.',
     image: '/assets/mac_Assets/MacBook.jpg',
     link: '/macBook',
+    learn: 'https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-m4-pro',
+  },
+  {
+    id: 'ipad',
+    name: 'iPad',
+    tagline: 'Supercharged by Apple silicon.',
+    image: '/assets/iPad_Assets/images/iPadImage.png',
+    link: '/iPad',
+    learn: 'https://www.apple.com/in/ipad-pro/specs/',
   },
 ]
 
@@ -100,16 +110,23 @@ const Products = () => {
 
               <div className="flex gap-6 pt-4">
                 <div className="hover:bg-gradient-to-bl from-blue to-purple-700 p-0.5 rounded-full">
-                  <Link
-                    to={product.link}
+                  <a
+                    href={product.link}
                     className="inline-flex items-center justify-center rounded-full border border-white/30 px-8 py-3 text-sm transition hover:bg-black"
                   >
                     View in 3D
-                  </Link>
+                  </a>
                 </div>
 
                 <button className="text-sm text-white/60 hover:text-white transition">
-                  Learn more →
+                <a
+                    href={product.learn}
+                    target='blank'
+                    className="inline-flex items-center justify-center rounded-full border border-white/30 px-8 py-3 text-sm transition hover:bg-black"
+                  >
+                    Learn more →
+                  </a>
+                  
                 </button>
               </div>
             </div>

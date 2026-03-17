@@ -59,7 +59,7 @@ const HowItWorks = () => {
                     <p className='text-gray font-semibold text-center mt-3'>Honkai: Star Rail</p>
                 </div>
 
-                <div className='flex md:flex-row flex-col justify-between items-start gap-24 flex-center'>
+                <div className='flex md:flex-row flex-col justify-between items-start gap-24 flex-center text-center'>
                     <div className='flex flex-1 justify-center flex-col'>
                         <p className='text-gray text-xl font-normal md:font-semibold g_fadeIn'>A17 Pro is am entirely new class of iPhone chip that delivers our {' '}
                             <span className='text-white'>best graphic perfomance</span>

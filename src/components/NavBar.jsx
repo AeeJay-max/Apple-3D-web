@@ -29,10 +29,10 @@ const NavBar = () => {
                 </div>
 
                 <div className='flex flex-auto justify-center max-sm:hidden'>
-                    <nav className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' onClick={() => navigate('/iPhone')}>iPhones</nav>
-                    <nav className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' onClick={() => navigate('/macBook')}>Mac</nav>
+                    <a className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' href='/iPhone'>iPhones</a>
+                    <a className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' onClick={() => navigate('/macBook')}>Mac</a>
                     <nav className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' onClick={() => navigate('/')}>Products</nav>
-                    <nav className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all'>Support</nav>
+                    <nav className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' onClick={() => navigate('/support')}>Support</nav>
                 </div>
                 <div className='flex items-baseline gap-7 max-sm:justify-end max-sm:flex-1'>
                     <img src={searchImg} alt='search' className='w-6 h-6' />
@@ -44,7 +44,7 @@ const NavBar = () => {
                     <nav className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' onClick={() => navigate('/iPhone')}>iPhones</nav>
                     <nav className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' onClick={() => navigate('/macBook')}>Mac</nav>
                     <nav className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' onClick={() => navigate('/')}>Products</nav>
-                    <nav className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all'>Support</nav>
+                    <nav className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' onClick={() => navigate('/support')}>Support</nav>
                 </nav>
             </div>
             </nav>

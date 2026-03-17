@@ -10,6 +10,7 @@ import highlightThirdmv from "/assets/videos/hightlight-sec.mp4";
 import highlightFourthmv from "/assets/videos/hightlight-fourth.mp4";
 import exploremv from "/assets/videos/explore.mp4";
 import framemv from "/assets/videos/frame.mp4";
+import iPadHighlights from "/assets/iPad_Assets/videos/iPad-Pro_AfterText.mp4";
 
 import apple from "/assets/images/apple.svg";
 import search from "/assets/images/search.svg";
@@ -28,6 +29,9 @@ import explore1 from "/assets/images/explore1.jpg";
 import explore2 from "/assets/images/explore2.jpg";
 import chip from "/assets/images/chip.jpeg";
 import frame from "/assets/images/frame.png";
+import iPadFrame from "/assets/iPad_Assets/images/Frame.png";
+import iPadFrametop from "/assets/iPad_Assets/images/Frametop.jpg";
+import iPadChip from "/assets/iPad_Assets/images/Apple-M4-chip-badge-240507.jpg"
 
 export const heroVideo = hmv;
 export const smallHeroVideo = smallmv;
@@ -37,6 +41,8 @@ export const highlightThirdVideo = highlightThirdmv;
 export const highlightFourthVideo = highlightFourthmv;
 export const exploreVideo = exploremv;
 export const frameVideo = framemv;
+
+export const iPadHighlightsVideo =iPadHighlights;
 
 export const appleImg = apple;
 export const searchImg = search;
@@ -55,3 +61,6 @@ export const explore1Img = explore1;
 export const explore2Img = explore2;
 export const chipImg = chip;
 export const frameImg = frame;
+export const iPadFrameimg = iPadFrame;
+export const iPadFrameimgtop = iPadFrametop;
+export const chipiPad = iPadChip;
