@@ -110,12 +110,12 @@ const Products = () => {
 
               <div className="flex gap-6 pt-4">
                 <div className="hover:bg-gradient-to-bl from-blue to-purple-700 p-0.5 rounded-full">
-                  <Link
+                  <a
                     href={product.link}
                     className="inline-flex items-center justify-center rounded-full border border-white/30 px-8 py-3 text-sm transition hover:bg-black"
                   >
                     View in 3D
-                  </Link>
+                  </a>
                 </div>
 
                 <button className="text-sm text-white/60 hover:text-white transition">
