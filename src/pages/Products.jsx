@@ -7,7 +7,7 @@ const products = [
     name: 'iPhone 15 Pro',
     tagline: 'Titanium. Powerful. Pro.',
     image: '/assets/images/Apple-iPhone-15-Pro.jpg',
-    link: '/iPhone',
+    link: '/iphone',
     learn: 'https://www.istore.co.za/shop-iphone-15-pro?srsltid=AfmBOorFh49KWHupWVqJXaomT7yT7lQCmuwjgMRj_uC9pmwpZyKDWzty',
   },
   {
@@ -15,7 +15,7 @@ const products = [
     name: 'Mac',
     tagline: 'Supercharged by Apple silicon.',
     image: '/assets/mac_Assets/MacBook.jpg',
-    link: '/macBook',
+    link: '/macbook',
     learn: 'https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-m4-pro',
   },
   {
@@ -23,7 +23,7 @@ const products = [
     name: 'iPad',
     tagline: 'Supercharged by Apple silicon.',
     image: '/assets/iPad_Assets/images/iPadImage.png',
-    link: '/iPad',
+    link: '/ipad',
     learn: 'https://www.apple.com/in/ipad-pro/specs/',
   },
 ]
