@@ -29,8 +29,8 @@ const NavBar = () => {
                 </div>
 
                 <div className='flex flex-auto justify-center max-sm:hidden'>
-                    <a className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' href='/iPhone'>iPhones</a>
-                    <a className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' onClick={() => navigate('/macBook')}>Mac</a>
+                    <a className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' href='/iphone'>iPhones</a>
+                    <a className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' onClick={() => navigate('/macbook')}>Mac</a>
                     <nav className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' onClick={() => navigate('/')}>Products</nav>
                     <nav className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' onClick={() => navigate('/support')}>Support</nav>
                 </div>
@@ -41,8 +41,8 @@ const NavBar = () => {
 
                 <div id='mobileMenu' className='hidden fixed max-h-fit p-2 bottom-0 right-0 left-0 top-16 md:hidden z-40'>
                 <nav className='flex flex-col gap-6 items-center bg-black bg-opacity-100 backdrop-blur- md'>
-                    <nav className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' onClick={() => navigate('/iPhone')}>iPhones</nav>
-                    <nav className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' onClick={() => navigate('/macBook')}>Mac</nav>
+                    <nav className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' onClick={() => navigate('/iphone')}>iPhones</nav>
+                    <nav className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' onClick={() => navigate('/macbook')}>Mac</nav>
                     <nav className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' onClick={() => navigate('/')}>Products</nav>
                     <nav className='cursor-pointer px-8 text-slate-300 hover:text-white hover:underline transition-all' onClick={() => navigate('/support')}>Support</nav>
                 </nav>

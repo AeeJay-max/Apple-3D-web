@@ -20,8 +20,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Products />} />
         <Route path="/iphone" element={<HomeiPHONE />} />
-        <Route path="/macBook" element={<HomeMac />} />
-        <Route path="/iPad" element={<IPad />} />
+        <Route path="/macbook" element={<HomeMac />} />
+        <Route path="/ipad" element={<IPad />} />
         <Route path="/support" element={<Support />} />
         <Route path="/developer" element={<Developer />} />
       </Routes>
