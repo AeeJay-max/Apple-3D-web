@@ -53,7 +53,7 @@ const Products = () => {
   }
 
   return (
-    <section className="min-h-screen bg-black text-white">
+    <section className="min-h-screen bg-gray-950 text-white">
       {/* HERO */}
       <div className="pt-32 pb-24 text-center">
         <h1 className="text-4xl md:text-6xl font-light tracking-tight">
